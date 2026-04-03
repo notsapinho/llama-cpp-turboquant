@@ -10,7 +10,7 @@
 #include "ggml-quants.h"
 #include "ggml-common.h"
 #include "ggml-impl.h"
-
+#define _USE_MATH_DEFINES
 #include <math.h>
 #include <string.h>
 #include <assert.h>
